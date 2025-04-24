@@ -1,0 +1,24 @@
+.card1{
+    padding: 50px;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.card1>.img{
+    width: 100%;
+    height: 70%;
+}
+.card1 > .card_btns{
+    display: flex;
+    justify-content: space-around;
+}
+.card1 > .card_btns > button{
+    padding: 10px 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+#cardsContainer{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+}
